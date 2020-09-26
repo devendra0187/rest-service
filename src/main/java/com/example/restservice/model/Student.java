@@ -1,4 +1,4 @@
-package com.example.restservice;
+package com.example.restservice.model;
 
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
