@@ -14,16 +14,16 @@ public class Student {
     @GeneratedValue(strategy = GenerationType.AUTO)
 
     private  Long id;
-    @Column(name = "first_name",nullable = false)
+    @Column(name = "first_name")
     private  String firstname;
 
-    @Column(name = "last_name", nullable = false)
+    @Column(name = "last_name")
     private  String lastname;
 
-    @Column(name = "class_name", nullable = false)
+    @Column(name = "class_name")
     private  String classname;
 
-    @Column(name = "nationality", nullable = false)
+    @Column(name = "nationality")
     private  String nationality;
 /*
     public Student(long id,String firstname,String lastname, String classname,String nationality){
